@@ -27085,30 +27085,35 @@ utils.intFromLE = intFromLE;
 
 },{"bn.js":81,"minimalistic-assert":235,"minimalistic-crypto-utils":236}],157:[function(require,module,exports){
 module.exports={
-  "_from": "elliptic@^6.0.0",
+  "_args": [
+    [
+      "elliptic@6.5.2",
+      "/Users/fujikawa/yonakuni"
+    ]
+  ],
+  "_from": "elliptic@6.5.2",
   "_id": "elliptic@6.5.2",
   "_inBundle": false,
   "_integrity": "sha512-f4x70okzZbIQl/NSRLkI/+tteV/9WqL98zx+SQ69KbXxmVrmjwsNUPn/gYJJ0sHvEak24cZgHIPegRePAtA/xw==",
   "_location": "/elliptic",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "elliptic@^6.0.0",
+    "raw": "elliptic@6.5.2",
     "name": "elliptic",
     "escapedName": "elliptic",
-    "rawSpec": "^6.0.0",
+    "rawSpec": "6.5.2",
     "saveSpec": null,
-    "fetchSpec": "^6.0.0"
+    "fetchSpec": "6.5.2"
   },
   "_requiredBy": [
     "/browserify-sign",
     "/create-ecdh"
   ],
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.5.2.tgz",
-  "_shasum": "05c5678d7173c049d8ca433552224a495d0e3762",
-  "_spec": "elliptic@^6.0.0",
-  "_where": "/Users/fujikawa/yonakuni/node_modules/browserify-sign",
+  "_spec": "6.5.2",
+  "_where": "/Users/fujikawa/yonakuni",
   "author": {
     "name": "Fedor Indutny",
     "email": "fedor@indutny.com"
@@ -27116,7 +27121,6 @@ module.exports={
   "bugs": {
     "url": "https://github.com/indutny/elliptic/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "bn.js": "^4.4.0",
     "brorand": "^1.0.1",
@@ -27126,7 +27130,6 @@ module.exports={
     "minimalistic-assert": "^1.0.0",
     "minimalistic-crypto-utils": "^1.0.0"
   },
-  "deprecated": false,
   "description": "EC cryptography",
   "devDependencies": {
     "brfs": "^1.4.3",
@@ -91967,7 +91970,7 @@ var request = require('request');
 
 var requestSettings = {
   method: 'GET',
-  url: 'https://github.com/Eigo-Mt-Fuji/aedmap/blob/master/7000020473821-02222020050256.zip?raw=true',
+  url: 'https://eigo-mt-fuji.github.io/gtfs-sample/7000020473821-02222020050256.zip',
   encoding: null
 };
 request(requestSettings, function (error, response, body) {

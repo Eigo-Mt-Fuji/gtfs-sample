@@ -3,7 +3,7 @@ var request = require('request');
 
 var requestSettings = {
   method: 'GET',
-  url: 'https://github.com/Eigo-Mt-Fuji/aedmap/blob/master/7000020473821-02222020050256.zip?raw=true',
+  url: 'https://eigo-mt-fuji.github.io/gtfs-sample/7000020473821-02222020050256.zip',
   encoding: null
 };
 request(requestSettings, function (error, response, body) {
