@@ -91978,7 +91978,7 @@ request(requestSettings, function (error, response, body) {
   //正しくデータを読み込めたら
   if (!error && response.statusCode == 200) {
     //GTFSのデータ構造については、https://developers.google.com/transit/gtfs-realtime/reference#VehicleDescriptorを参照
-    var feed = GtfsRealtimeBindings.FeedMessage.decode(body);
+    var feed = GtfsRealtimeBindings.transit_realtime.FeedMessage.decode(body);
     feed.entity.forEach(function(entity) {
       if (entity.vehicle) {
         //コンソールにデータを表示
